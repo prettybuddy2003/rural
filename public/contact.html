@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>rural development</title>
+    <link rel="stylesheet" href="about.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="logo">
+          <img src="logo.jpg">
+        </div>
+        
+            
+             
+             <ul class="dropdown">
+              
+                <li><a href="about.html"><i class="fa fa-user"></i>  About Us  <i class="fa fa-caret-down"></i> </a>
+                     <ul class="about">
+                       <li><a href="obj.html">Objectives</a></li>
+                       <li><a href="vm.html">Vission & Mission</a></li>
+                       <li><a href="oc.html">Organization Chart</a></li>
+                       <li><a href="tm.html">Team Members</a></li>
+                       <li><a href="ms.html">MoUs</a></li>
+                     </ul>
+                </li>
+                <li><a href="ps.html"><i class="fa fa-clone"></i>  Products &Services  <i class="fa fa-caret-down"></i></a>
+                  <ul class="ps">
+                    <li><a href="hc.html">Health Care</a></li>
+                    <li><a href="ac.html">Agriculture</a></li>
+                    <li><a href="hb.html">Home & Building Automation</a></li>
+                    <li><a href="lo.html">Logistics & Others</a></li>
+                  </ul>
+                
+                </li>
+                <li><a href="ce.html"><i class="fa fa-bandcamp"></i>  Center Of Excellence  <i class="fa fa-caret-down"></i></a>
+                  <ul class="ce">
+                    <li><a href="is.html">Internship</a></li>
+                    <li><a href="lh.html">Learning Hub</a></li>
+                
+                  </ul>
+                
+                </li>
+                <li><a href="index.html"><i class="fa fa-home"></i>  Home</a></li>
+              </ul>
+             
+            
+       </div>
+          <div class="text-box">
+            <h1>Contact</h1>
+        </div>
+        
+    
+      </header>
+      <div class="containe">
+        <h1 class="brand">Feel free to post your Queries...</h1>
+        <div class="wrapper animated fadeInUp">
+          <div class="company-info">
+            <h3>ruralcareinnovators</h3>
+            <ul>
+              <li><i class="fa fa-road"></i> A11,Jeyabharath Home,<br> Oomatchikulam,</br> Madurai,Tamilnadu,</br></India-625014></li>
+              <li><i class="fa fa-phone"></i> +91 98659 36932</li>
+              <li><i class="fa fa-envelope"></i> ceo@ruralcareinnovators.com</li>
+            </ul>
+              <!--social media links-->
+              <u1 class="sci">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="link-outline"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+              </u1> 
+        
+              <div class="contact map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.180111543291!2d78.14745281474225!3d10.001976592849848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c7f606f8f2e9%3A0x5bba196303a31ee0!2sJayabharath%20Oscar%20City!5e0!3m2!1sen!2sin!4v1653725903386!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+    
+          </div>
+          <div class="contact">
+            <h3>Email Us</h3>
+            <div class="alert">Your message has been sent</div>
+            <form action="" id="contactForm">
+              <p>
+                <label>firstName</label>
+                <input type="text" name="firstname" id="name" required>
+              </p>
+              <p>
+                <label>lastname</label>
+                <input type="text" lastname="name" id="name1" required>
+              </p>
+              <p>
+                <label>Email Address</label>
+                <input type="email" name="email" id="email" required>
+              </p>
+              <p>
+                <label>Phone Number</label>
+                <input type="text" name="phone" id="phone">
+              </p>
+              <p class="full">
+                <label>Message</label>
+                <textarea name="message" id="message" rows="5"></textarea>
+              </p>
+              
+                
+              
+              <button type="submit" onclick="openPopup()">Submit</button>
+              
+              <div class="popup" id="popup">
+                <img src="tick.jpg">
+                <h2>Thank You!</h2>
+                <p>Your details has been successfully submitted.</p>
+                <button type="button" onclick="closePopup()">OK</button>
+
+              </div>
+            
+              <script>
+              let popup = document.getElementById("popup");
+
+              
+              function openPopup(){
+                  popup.classList.add("open-popup");
+              }
+              function closePopup(){
+                  popup.classList.remove("open-popup");
+              }
+
+
+              </script>
+            </body>
+            </form>
+          </div>
+        </div>
+      </div>
+       <!-- map -->
+      
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js" integrity="sha512-WnKoo/DGK6Wvu5xPOmEO9jqKMPoXKvl4qgawPt3isDVszgeGz4RwR8Lht7SDrmkGAzjLzGqDq1Vrqbm649C0aw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script  src="main.js"></script>
+      
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>About Us</h2>
+            <a href="">products</a>
+            <a href="">services</a>
+            <a href="">Customers</a>
+            <a href="">center of excellence</a>
+          </div>
+          <div class="footer-heading footer-2">
+            <h2>Contact Us</h2>
+            <a href="">jobs</a>
+            <a href="">supports</a>
+            <a href="">Contact</a>
+            <a href="">internships</a>
+          </div>
+          <div class="footer-heading footer-3">
+            <h2>social media</h2>
+            <a href="">instagram  <i class="fa fa-instagram"></i></a>
+            <a href="">facebook  <i class="fa fa-facebook"></i></a>
+            <a href="">youtube  <i class="fa fa-youtube"></i></a>
+            <a href="">twitter  <i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+     
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 35vw;
+  background-image:linear-gradient(#000000c3,#000000c3) ,url(cu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dropdown{
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 10;
+}
+
+
+.dropdown a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+width:200px;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+
+  padding: 10px 0;
+ 
+}
+ .dropdown a:hover{
+  background-color: rgba(0,0,0,2);
+}
+.about{
+list-style-type: none;
+display: none;
+}
+.dropdown li:nth-child(1):hover .about{
+    display: block;
+}
+.ps{
+  list-style-type: none;
+  display: none;
+}
+.dropdown li:nth-child(2):hover .ps{
+  display: block;
+}
+.ce{
+  list-style-type: none;
+  display: none;
+}
+.dropdown li:nth-child(3):hover .ce{
+  display: block;
+}
+
+.text-box{
+  color: #fff;
+  position: absolute;
+  height: 35vh;
+  top: 200px;
+  text-align: center;
+  background-size: cover;
+}
+.text-box h1{
+  font-size: 50px;
+  margin-top: 35px;
+  margin-left: 580px;
+  
+}
+
+
+.logo img{
+width: 300px;
+float: left;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.containe{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+  margin-top: 50px;
+}
+
+ul{
+  list-style: none;
+  padding:0;
+}
+
+.brand{
+  text-align: center;
+  
+}
+
+.brand span{
+  color:#fff;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > *{
+  padding: 1em;
+}
+
+.company-info{
+  background:#c9e6ff;
+}
+
+.company-info h3, .company-info ul{
+  text-align: center;
+  margin:0 0 1rem 0;
+}
+
+.contact{
+  background:#f9feff;
+}
+
+/* FORM STYLES */
+.contact form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+
+.contact form label{
+  display:block;
+}
+
+.contact form p{
+  margin:0;
+}
+
+.contact form .full{
+  grid-column: 1 / 3;
+}
+
+.contact form button, .contact form input, .contact form textarea{
+  width: 100%;
+  padding:1em;
+  border:1px solid #c9e6ff;
+  cursor: pointer;
+  
+}
+
+
+.contact form button{
+  background:#c9e6ff;
+  border:0;
+  border-radius: 10px;
+
+  text-transform: uppercase;
+}
+
+.contact form button:hover,.contact form button:focus{
+  background:#92bde7;
+  color:#fff;
+  outline:0;
+  transition: background-color 0.3s ease-out;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background-color: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+  .sci
+{
+  margin-top: 10px;
+  display: flex;
+  color: darkblue;
+  
+
+}
+.sci li
+{
+  list-style: none;
+  margin-right: 40px;
+  color: darkblue;
+
+
+}
+.sci li a
+{
+  color: #fff;
+  font-size: 2em;
+  color: darkblue;
+
+
+}
+.sci li a:hover
+{
+
+  color: white;
+
+}
+
+.map
+{
+  padding: 0;
+  grid-area: map;
+}
+
+.map iframe
+{
+  width: 100%;
+  height: 100%;
+  grid-area: map;
+ 
+}
+}
+
+.popup{
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+  visibility: visible;
+  
+  transform: translate(-50%,-50%) scale(1);
+}
+.popup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #6fd649;
+
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.footer-container{
+  background-color: #011c39;
+
+}
+.footer{
+  width: 80%;
+  height: 40vh;
+  background-color: #011c39;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+ .footer-heading{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10rem;
+ }
+ .footer-heading h2{
+   margin-bottom: 2rem;
+   color: #fff;
+ }
+ .footer-heading a{
+   color: #fff;
+   text-decoration: none;
+   margin-bottom: 0.5rem;
+ }
+ .footer-heading a :hover{
+   color: red;
+   transition: 0.3s ease-out;
+ }
+
+</style>
